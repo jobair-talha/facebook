@@ -1,0 +1,273 @@
+<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400,500,700,800,900|Playfair+Display:400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,hebrew,latin-ext,vietnamese" rel="stylesheet">
+/*--
+font-family: 'Roboto', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Playfair Display', serif;
+--*/
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+/*-- Header secion start--*/
+.header{
+  background: #3B5998;
+  overflow: hidden;
+  padding: 8px 0;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.logo{
+  width: 55%;
+  float: left;
+}
+.logo img{
+  width: 160px;
+  margin-top: 16px;
+}
+.login-area{
+  width: 45%;
+  float: right;
+  color: white;
+}
+.login-area form{
+  float: right;
+}
+.login-area label{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.login-area label,input{
+  display: block;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+  border: 1px solid #282C34;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 5px;
+}
+.login-area input[type="submit"]{
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  margin-top: 23px;
+  color: #fff;
+  font-weight: 500;
+}
+.login-area input[type="submit"]:hover{
+  background-color: #365899;
+}
+.email{
+  float: left;
+  margin-right: 10px;
+}
+.password{
+  float: left;
+  margin-right: 10px;
+}
+.password a{
+  text-decoration: none;
+  color: #9cb4d8;
+  font-size: 13px;
+}
+.password a:hover{
+  text-decoration: underline;
+}
+.submit{
+  float: left;
+}
+/*-- Header secion End --*/
+
+/*-- middle section start --*/
+#middle::after{
+  content: '';
+  clear: both;
+  display: block;
+
+}
+#middle{
+  background: linear-gradient(white, #D3D8E8);
+}
+.left-area{
+  width: 53%;
+  float: left;
+}
+.left-area h2{
+  font-size: 23px;
+  color: #0E385F;
+}
+.left-area img{
+  width: 100%;
+}
+
+
+
+.right-area{
+  width: 44%;
+  float: right;
+}
+.right-area h2{
+  margin: 12px 0;
+  font-size: 35px;
+}
+.right-area h4{
+font-family: inherit;
+font-family: inherit;
+font-weight: 400;
+margin: 5px 0;
+}
+.right-area input[type="text"],
+.right-area input[type="password"],
+.right-area input[type="email"]{
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid ##bdc7d8;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 18px;
+  margin: 7px 0;
+}
+.full-name{
+  overflow: hidden;
+}
+.fast-name{
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+.surname{
+  width: 48%;
+  float: left;
+}
+.birth-all{
+  overflow: hidden;
+}
+.birthday{
+
+}
+
+.birthday h3{
+  margin: 7px 0;
+  font-weight: 300
+}
+.birthday-date select{
+  border: 1px solid #ccc;
+  padding: 5px;
+  float: left;
+}
+.birthday-link{
+  display: inline-block;
+  width: 213px;
+}
+.birthday-link a{
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+    padding-left: 19px;
+}
+ .gender{
+       margin-top: 15px;
+ }
+.gender input{
+      display: inline-block;
+}
+.text p{
+  color: #777;
+  font-size: 12px;
+  width: 330px;
+}
+.batton input{
+  background: #33b133;
+    border: 1px solid;
+    padding: 9px 45px;
+    color: white;
+    font-weight: 700;
+    border-radius: 9px;
+    margin-top: 19px;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    margin-bottom: 50px;
+}
+.batton input:hover{
+  background: #00bf00;
+}
+.last{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: block;
+}
+
+
+
+
+.language{
+  overflow: hidden;
+  margin-top: 15px;
+}
+.language ul{
+  margin: 0;
+  padding: 0;
+}
+.language ul li{
+  list-style: none;
+}
+.language ul li a{
+  float: left;
+  padding: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #365899;
+}
+.language ul li a:hover{
+  text-decoration:underline;
+}
+.language ul li:last-child a{
+  color:gray;
+  border: 1px solid black;
+}
+.language ul li.1st-list a{
+  color: gray;
+}
+hr{
+  margin: 0;
+}
+.others{
+  overflow: hidden;
+}
+.others ul {
+  margin: 0;
+  padding: 0;
+}
+.others ul li{
+  list-style: none;
+}
+.others ul li a{
+  text-decoration: none;
+  float: left;
+  padding: 8px;
+  font-size: 11px;
+  color: #326e9abf;
+}
+
+
+
+
+
+.footer{
+background: #d8dcebd6;
+padding: 1px;
+}
+.footer p{
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  margin-top:23px;
+}
